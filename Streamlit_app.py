@@ -133,42 +133,36 @@ if st.button("Predict"):
 # 예측 결과에 따라 콘텐츠 표시
 if prediction!=0:
     if prediction <= 1.5:
-        st.write("### Prediction Result: BlueWin!")
+        st.write("### Prediction Result: Blue Win!")
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 1")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")  # YouTube 썸네일
-            st.text("Description for Low Segment 1")
+            st.video("https://youtu.be/Cj2n11muWNc?feature=shared")  # YouTube 썸네일
+            st.text("2023 LCK 명장면 1")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 2")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 2")
+            st.video("https://youtu.be/9kYACEeG2O4?feature=shared")
+            st.text("2023 LCK 명장면 2")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="Low Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Low Segment 3")
+            st.video("https://youtu.be/Iu2SPpQ3QwI?feature=shared")
+            st.text("2023 LCK 명장면 3")
 
     elif 1.5 < prediction <= 2:
-        st.write("### Prediction Result: RedWin!")
+        st.write("### Prediction Result: Red Win!")
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 1")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 1")
+            st.video("https://youtu.be/oJnwGAyCqZo?feature=shared")
+            st.text("2023 LCK 명장면 4")
 
         with col2:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 2")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 2")
+            st.video("https://youtu.be/FnNJsmdoeFc?feature=shared")
+            st.text("2023 LCK 명장면 5")
 
         with col3:
-            st.image("https://via.placeholder.com/300", caption="Medium Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for Medium Segment 3")
+            st.video("https://youtu.be/8USWY7w11jE?feature=shared")
+            st.text("2023 LCK 명장면 6")
 
     else:
         st.write("### Prediction Result: High Price Segment")
@@ -177,14 +171,13 @@ if prediction!=0:
         with col1:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 1")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 1")
+            st.text("2023 LCK 명장면 4")
 
         with col2:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 2")
             st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 2")
+            st.text("2023 LCK 명장면 5")
 
         with col3:
             st.image("https://via.placeholder.com/300", caption="High Segment Image 3")
-            st.video("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
-            st.text("Description for High Segment 3")
+
