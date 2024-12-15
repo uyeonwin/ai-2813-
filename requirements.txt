@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+plotly
+fastai2
+fastbook
+Pillow
+gdown
+opencv-python-headless
+xgboost
+requests
